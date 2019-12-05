@@ -12,6 +12,11 @@ body   {
     margin: auto;
 }
 
+header > div.header-content {
+    width: 900px;
+    margin: auto;
+}
+
 header  {
     width: 100%;
     height: 105px;
@@ -19,15 +24,15 @@ header  {
     background-image: url("img/header_bg.png");
 }
 
-header > div.header-flex-container {
+.header-flex-container {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: flex-end;
 }
 
 header > div.search-site  {
     display: flex;
-    justify-content: right;
+    justify-content: left;
     align-items: center;
 }
 
@@ -52,6 +57,21 @@ header > div.search-site  {
 nav.main-menu {
     display: flex;
     direction: row; /*default*/
+}
+
+nav.main-menu > ul.main-menu-list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+
+}
+nav.main-menu > ul.main-menu-list > li  {
+    list-style-type: none;
+    display: block;
+}
+
+#home-icon  {
+    width: 7px;
 }
 
 
