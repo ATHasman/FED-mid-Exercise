@@ -10,7 +10,7 @@ body   {
     margin: auto;
     line-height: 1;
 }
-
+/* header */
 header  {
     width: 100%;
     height: 105px;
@@ -22,14 +22,13 @@ header  {
     border: solid 1px white;
     max-width: 900px;
     height: 105px;
-    margin: auto;
-    text-align: center;
+    margin: 0 auto;
 }
-
+/*search box */
 ul.search-box-items  {
     display: flex;
     justify-content: flex-end;
-    margin: 0;
+    margin: 10px;
 }
 
 ul.search-box-items > li {
@@ -43,7 +42,6 @@ ul.search-box-items > li {
     font-size: 12px;
     font-weight: bold;
     text-decoration: none;
-    padding-left: 1em;
 }
 #search-box-input   {
     height: auto;
@@ -56,21 +54,33 @@ ul.search-box-items > li {
     padding: 0;
 }
 
-
+#logo-icon  {
+    position: absolute;
+    display: inline;
+    align-content: right;
+}
+/* navigation menu  */
 
 
 nav.main-menu {
     display: flex;
-    border: solid 1px white;
+    border: dashed 1px white;
+    height: fit-content;
+    padding-top: 2em;
 }
 nav ul.main-menu-list {
     display: flex;
     justify-content: space-around;
+    align-items: flex-end;
     width: 100%;
+    margin: 0;
+    padding-right: 9em;
+
+    
 }
 nav.main-menu > ul.main-menu-list > li  {
     list-style-type: none;
-    display: block;
+    display: inline-block;
 }
 nav.main-menu > ul.main-menu-list > li a {
     text-decoration: none;
@@ -78,9 +88,10 @@ nav.main-menu > ul.main-menu-list > li a {
     font-weight: bold;
 }
 
+/* main page  */
 
 
-
+/* footer  */
 footer  {
     width: 100%;
     height: 38px;

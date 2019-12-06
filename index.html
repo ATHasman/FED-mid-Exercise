@@ -7,6 +7,7 @@
         <title>Paz Home Page</title>
         <link rel="stylesheet" href="style.css">
         <link rel="script" href="script.js">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <header>
@@ -16,11 +17,19 @@
                     <li><input id="search-box-input" type="text" name="search-box" placeholder="רשום מילת חיפוש"></li>
                     <li><a id="search-button" href="#"><img src="img/search_button.png" alt="search"></a></li>
                 </ul>
-                <nav class="main-menu">
+                <a id="logo-icon" href="#"><img src="img/paz_logo.png" alt="Paz Home"></a>
+                <nav class="main-menu" id="main-top-nav">
                     <ul class="main-menu-list">
-                        <li id="home-icon"><a href="#"><img src="img/menu_home_blue" alt="home"></a></li>
+                        <li id="home-icon"><a href="#"><img src="img/menu_home_blue.png" alt="home"></a></li>
                         <li><img src="img/menu_sep.png" alt="|"></li>
                         <li><a href="#">אודות</a></li>
+                        <div class="dropdown">
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </div>
                         <li><img src="img/menu_sep.png" alt="|"></li>
                         <li><a href="#">חטיבות</a></li>
                         <li><img src="img/menu_sep.png" alt="|"></li>
@@ -38,8 +47,7 @@
             </div>
         </header>
         <main>
-            <div class="main-content">
-                
+           
         </main>
         <footer>
             <div class="footer-menu">
