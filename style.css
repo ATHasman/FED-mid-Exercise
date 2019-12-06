@@ -10,11 +10,7 @@ body   {
     background-color: #ffffff;
     width: 100%;
     margin: auto;
-}
-
-header > div.header-content {
-    width: 900px;
-    margin: auto;
+    line-height: 1;
 }
 
 header  {
@@ -24,15 +20,16 @@ header  {
     background-image: url("img/header_bg.png");
 }
 
-.header-flex-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+header .header-content {
+    width: 900px;
+    height: 105px;
+    margin: auto;
+    text-align: left;
 }
 
-header > div.search-site  {
+header div.search-box  {
     display: flex;
-    justify-content: left;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -43,16 +40,16 @@ header > div.search-site  {
     text-decoration: none;
 }
 
-#search-box {
-    display: inline;
-
+#search-box-input   {
+    margin: 0;
+    padding:0;
+}
+#search-button  {
+    margin: 0;
+    padding: 0;
 }
 
-#search-icon  {
-    height: 19px;
-    width: 19px;
-    display: inline-block;
-}
+
 
 nav.main-menu {
     display: flex;
