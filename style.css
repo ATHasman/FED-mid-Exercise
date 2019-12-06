@@ -61,7 +61,6 @@ ul.search-box-items > li {
 
 nav.main-menu {
     display: flex;
-    top: calc(105px-1em);
     border: solid 1px white;
 }
 nav ul.main-menu-list {
