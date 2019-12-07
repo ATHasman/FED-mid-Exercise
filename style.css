@@ -16,13 +16,15 @@ header  {
     height: 105px;
     margin: auto;
     background-image: url("img/header_bg.png");
+    position: fixed;
+    top: 0;
+
 }
 
 .header-content {
-    border: solid 1px white;
     max-width: 900px;
     height: 105px;
-    margin: 0 auto;
+    margin: auto;
 }
 /* --------------search box--------------- */
 ul.search-box-items  {
@@ -34,7 +36,7 @@ ul.search-box-items  {
 ul.search-box-items > li {
     display: inline;
     list-style-type: none;
-    padding: 0 1px;
+    padding: 0 0.05em;
 }
 
 #search-lang {
@@ -62,7 +64,7 @@ ul.search-box-items > li {
 
 /* ---------------navigation menu--------------  */
 nav.main-menu {
-    padding-top: 2em;
+    padding-top: 2.4em;
     width: 100%;
     height: auto;
 }
@@ -125,6 +127,33 @@ footer  {
     background-image: url("img/footer_bg.png");
 }
 
+.footer-content {
+    max-width: 900px;
+    height: 38px;
+    margin: auto;
+}
 
+footer .footer-menu {
+    padding-bottom: 0;
+    width: 100%;
+}
 
+.footer-menu .flex-menu   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.footer-menu > .flex-menu li, .footer-menu > .flex-menu li a  {
+    list-style-type: none;
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0.5em;
+    font-size: 0.8rem;
+}
+
+.footer-menu > .flex-menu li a:hover    {
+    color: #005CA0;
+    text-decoration: underline;
+}
