@@ -134,14 +134,14 @@ footer  {
 }
 
 footer .footer-menu {
-    padding-bottom: 0;
+    padding-bottom: 5%;
     width: 100%;
 }
 
 .footer-menu .flex-menu   {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items: top;
 }
 
 .footer-menu > .flex-menu li, .footer-menu > .flex-menu li a  {
@@ -150,7 +150,8 @@ footer .footer-menu {
     text-decoration: none;
     color: white;
     margin-bottom: 0.5em;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+
 }
 
 .footer-menu > .flex-menu li a:hover    {
