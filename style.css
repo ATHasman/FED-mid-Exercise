@@ -126,7 +126,6 @@ display: initial;
 .main-content   {
     width: 900px;
     margin: auto;
-    position: absolute;
     top: 105px;
     padding-top:30px;
 }
@@ -144,6 +143,10 @@ display: initial;
     border: solid 1px gray;
     border-bottom-right-radius: 10%;
 }
+.main-content > section {
+    width: 248px;
+    height: 97px;
+}
 
 .main-content .section-content-right   {
     background-image: url("/img/right-tab.JPG");  
@@ -158,7 +161,27 @@ display: initial;
 
 }
 
+.main-content .section-content  {
+    position: relative;
+    top: 2px;
+    right: 2px;
+    font-size: 0.8em;
+    color: white;
+    width: 248px;
+    height: 97px;
+    background-color: gray;
+    border: black solid 1px;
+    border-bottom-right-radius: 10%;
+    opacity: 70%;
 
+
+}
+
+.main-content .section-content > a {
+    text-decoration: none;
+    color: white;
+    
+}
 /* -------------footer--------------  */
 footer  {
     width: 100%;
