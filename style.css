@@ -5,10 +5,12 @@ body   {
     direction: rtl;
     font-family: Arial;
     padding-bottom: 38px;
+    padding-top: 105px;
     background-color: #ffffff;
     width: 100%;
     margin: auto;
     line-height: 1;
+    position: relative;
 }
 /*------------- header-------------- */
 header  {
@@ -16,7 +18,7 @@ header  {
     height: 105px;
     margin: auto;
     background-image: url("img/header_bg.png");
-    position: fixed;
+    position: absolute;
     top: 0;
 
 }
@@ -53,6 +55,7 @@ ul.search-box-items > li {
     border: transparent;
     background-image: url("img/search_input.png");
 }
+
 #search-button  {
     margin-top: 0;
     padding: 0;
@@ -121,18 +124,38 @@ display: initial;
 /* ----------- main page ---------- */
 
 .main-content   {
-    max-width: 900px;
+    width: 900px;
     margin: auto;
+    position: absolute;
+    top: 105px;
+    padding-top:30px;
 }
 
 .main-content > .flex-container-tab {
     display: flex;
-    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
 }
 
+.main-content > .flex-container-tab > section {
+    width: 32%;
+    height: 355px;
+    border: solid 1px gray;
+    border-bottom-right-radius: 10%;
+}
 
-.main-content > .flex-container > section {
-    
+.main-content .section-content-right   {
+    background-image: url("/img/right-tab.JPG");  
+
+}
+.main-content .section-content-mid    {
+    background-image: url("/img/mid-tab.jpg");  
+
+}
+.main-content .section-content-left    {
+    background-image: url("/img/left-tab.JPG");  
+
 }
 
 
