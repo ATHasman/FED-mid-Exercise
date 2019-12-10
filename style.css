@@ -165,21 +165,28 @@ display: initial;
     width: 248px;
     height: 97px;
     position: absolute;
+    display: flex;
+    flex-direction: column;
     bottom: 0.5em;
     right: 0.4em;
     background-color: gray;
-    border: black solid 1px;
     border-bottom-right-radius: 5%;
-    padding: 10px
+    padding: 10px;
+    opacity: 0.9;
 }
-.main-content .section-content h3,p {
+.main-content .section-content h3 {
+    margin: 0;
+}
+
+.main-content .section-content p {
     margin: 0;
 }
 
 .main-content .section-content a {
     text-decoration: none;
-    color: white;   
-    float: left;
+    color: white;
+    text-align: left;  
+   
 }
 
 .main-content .section-content a:hover  {
