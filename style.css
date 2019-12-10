@@ -46,14 +46,17 @@ ul.search-box-items > li {
     text-decoration: none;
 }
 #search-box-input   {
-    height: auto;
+    height: 100%;
     margin: 0;
+    border-top-right-radius: 5px;
     padding: 0;
+    border: transparent;
     background-image: url("img/search_input.png");
 }
 #search-button  {
     margin-top: 0;
     padding: 0;
+    height: 100%;
 }
 
 #logo-icon  {
@@ -129,7 +132,7 @@ display: initial;
 
 
 .main-content > .flex-container > section {
-
+    
 }
 
 
