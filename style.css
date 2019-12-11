@@ -20,7 +20,7 @@ header  {
     background-image: url("img/header_bg.png");
     position: absolute;
     top: 0;
-
+    z-index: 100;
 }
 
 .header-content {
@@ -128,7 +128,10 @@ display: initial;
     margin: auto;
     top: 105px;
     padding-top:30px;
+    z-index: 10;
 }
+
+/* ----------- tab boxes  ---------- */
 
 .main-content > .flex-container-tab {
     display: flex;
@@ -157,7 +160,6 @@ display: initial;
     background-image: url("/img/left-tab.JPG");  
 
 }
-
 
 .main-content .section-content  {
     font-size: 0.8em;
@@ -193,6 +195,17 @@ display: initial;
     text-decoration: underline;
     color: #005CA0;
 }
+
+/* ----------- banner boxes  ---------- */
+
+.main-content .flex-container-banners > section {
+    position: relative;
+    width: 32%;
+    height: 216px;
+    border-top-right-radius: 5%;
+    border: solid 1px black;
+}
+
 /* -------------footer--------------  */
 footer  {
     width: 100%;
