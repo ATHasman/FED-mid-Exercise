@@ -257,11 +257,13 @@ display: initial;
 
 .main-content .flex-container-banners .section-bnr-left .section-bnr-content    {
     position: relative;
+    height: 100%
 }
 
 .main-content .flex-container-banners .section-bnr-left .section-bnr-content .bnr-img {
     position: absolute ;
-    left: 0.5em;
+    left: 50px;
+    top: 30px;
     height: 140px;
     width: auto ;
     text-align: center;
