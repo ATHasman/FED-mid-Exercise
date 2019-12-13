@@ -230,8 +230,8 @@ display: initial;
 }
 
 .main-content .flex-container-banners .section-bnr-content .bnr-img {
-    height: 110px;
-    width: auto;
+    height: 140px;
+    width: auto ;
     text-align: center;
 }
 
@@ -255,6 +255,39 @@ display: initial;
     font-weight: bolder;
 }
 
+.main-content .flex-container-banners .section-bnr-left .section-bnr-content    {
+    position: relative;
+}
+
+.main-content .flex-container-banners .section-bnr-left .section-bnr-content .bnr-img {
+    position: absolute ;
+    left: 0.5em;
+    height: 140px;
+    width: auto ;
+    text-align: center;
+}
+
+.main-content .flex-container-banners .section-bnr-content .paz-stations-read-more .paz-station-area {
+    list-style-type: none;
+    padding: 0.2em;
+}
+
+.main-content .flex-container-banners .section-bnr-content .paz-stations-read-more ul > li  {
+    padding-bottom: 0.2em;
+}
+
+.main-content .flex-container-banners .section-bnr-content .paz-stations-read-more ul > li > a {
+    text-decoration: none;
+    color: gray;
+    text-align: left; 
+    font-size: 0.8em; 
+}
+
+.main-content .flex-container-banners .section-bnr-content .paz-stations-read-more li a:hover   {
+    text-decoration: underline;
+    color: #005CA0;
+    font-weight: bolder;
+}
 
 /* -------------footer--------------  */
 
