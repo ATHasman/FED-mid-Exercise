@@ -138,6 +138,7 @@ display: initial;
     margin: auto;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .main-content > .flex-container-tab > section {
@@ -188,7 +189,6 @@ display: initial;
     text-decoration: none;
     color: white;
     text-align: left;  
-   
 }
 
 .main-content .section-content a:hover  {
@@ -199,12 +199,51 @@ display: initial;
 /* ----------- banner boxes  ---------- */
 
 .main-content .flex-container-banners > section {
-    position: relative;
+    /* position: relative; */
     width: 32%;
-    height: 216px;
+    height: 230px;
     border-top-right-radius: 5%;
-    border: solid 1px black;
 }
+
+.main-content .flex-container-banners {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.main-content .flex-container-banners .section-bnr-content  {
+    background-image: url("img/small_cube_bg.png");
+    padding: 0.2em 0.5em 0.6em;
+}
+
+
+.main-content .flex-container-banners .section-bnr-content h3 {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: grey;
+}
+
+.main-content .flex-container-banners .section-bnr-content img {
+    height: 110px;
+    width: auto;
+    align-content: center;
+}
+
+.main-content .flex-container-banners .section-bnr-content a {
+    text-decoration: none;
+    color: white;
+    text-align: left;  
+}
+
+.main-content .flex-container-banners .section-bnr-content a:hover  {
+    text-decoration: underline;
+    color: #005CA0;
+}
+
+
 /* -------------footer--------------  */
 footer  {
     width: 100%;
