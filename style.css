@@ -149,15 +149,15 @@ display: initial;
 
 
 .main-content .section-content-right   {
-    background-image: url("/img/right-tab.JPG");  
+    background-image: url("img/right-tab.JPG");  
 
 }
 .main-content .section-content-mid    {
-    background-image: url("/img/mid-tab.jpg");  
+    background-image: url("img/mid-tab.jpg");  
 
 }
 .main-content .section-content-left    {
-    background-image: url("/img/left-tab.JPG");  
+    background-image: url("img/left-tab.JPG");  
 
 }
 
@@ -205,7 +205,6 @@ display: initial;
     border-top-right-radius: 5%;
     border: solid 1px black;
 }
-
 /* -------------footer--------------  */
 footer  {
     width: 100%;
