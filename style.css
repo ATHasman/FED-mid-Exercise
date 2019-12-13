@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box;
 }
-body   {
+
+body {
     direction: rtl;
     font-family: Arial;
     padding-bottom: 38px;
@@ -12,8 +13,9 @@ body   {
     line-height: 1;
     position: relative;
 }
+
 /*------------- header-------------- */
-header  {
+header {
     width: 100%;
     height: 105px;
     margin: auto;
@@ -28,14 +30,15 @@ header  {
     height: 105px;
     margin: auto;
 }
+
 /* --------------search box--------------- */
-ul.search-box-items  {
+ul.search-box-items {
     display: flex;
     justify-content: flex-end;
     margin: 10px;
 }
 
-ul.search-box-items > li {
+ul.search-box-items>li {
     display: inline;
     list-style-type: none;
     padding: 0 0.05em;
@@ -47,7 +50,8 @@ ul.search-box-items > li {
     font-weight: bold;
     text-decoration: none;
 }
-#search-box-input   {
+
+#search-box-input {
     height: 100%;
     margin: 0;
     border-top-right-radius: 5px;
@@ -56,13 +60,13 @@ ul.search-box-items > li {
     background-image: url("img/search_input.png");
 }
 
-#search-button  {
+#search-button {
     margin-top: 0;
     padding: 0;
     height: 100%;
 }
 
-#logo-icon  {
+#logo-icon {
     position: absolute;
     display: inline;
     align-content: right;
@@ -74,6 +78,7 @@ nav.main-menu {
     width: 100%;
     height: auto;
 }
+
 nav .flex-menu {
     list-style-type: none;
     display: flex;
@@ -81,9 +86,11 @@ nav .flex-menu {
     align-items: center;
     text-align: right;
     margin: 0;
-    padding-right: 9em; 
+    padding-right: 9em;
 }
-nav .flex-menu li a, .dropdown-content > a {
+
+nav .flex-menu li a,
+.dropdown-content>a {
     list-style-type: none;
     display: block;
     text-decoration: none;
@@ -91,57 +98,62 @@ nav .flex-menu li a, .dropdown-content > a {
     font-weight: bold;
     padding: 0.2em;
     width: max-content;
-    
+
 }
-nav .flex-menu li a:hover, .dropdown-content > a:hover, .dropdown:hover {
+
+nav .flex-menu li a:hover,
+.dropdown-content>a:hover,
+.dropdown:hover {
     color: #005CA0;
     text-decoration: underline;
 }
-nav ul > li.active > a {
+
+nav ul>li.active>a {
     color: black;
     text-decoration: underline;
 }
+
 .dropdown {
     position: relative;
 }
-    
+
 .dropdown-content {
-display: none;
-position: absolute;
-top: 100%;
-right: 0;
-width: fit-content;
-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
-background-image: linear-gradient(#A8A8A8, #9B9B9B, #909090);
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: fit-content;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(#A8A8A8, #9B9B9B, #909090);
 
 }
 
-.dropdown:hover > .dropdown-content {
-display: initial;
+.dropdown:hover>.dropdown-content {
+    display: initial;
 }
-    
+
 
 /* ----------- main content ---------- */
 
-.main-content   {
+.main-content {
     width: 900px;
     margin: auto;
     top: 105px;
-    padding-top:30px;
+    padding-top: 30px;
     z-index: 10;
 }
 
 /* ----------- tab boxes  ---------- */
 
-.main-content > .flex-container-tab {
+.main-content>.flex-container-tab {
     display: flex;
     margin: auto;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
-.main-content > .flex-container-tab > section {
+.main-content>.flex-container-tab>section {
     position: relative;
     width: 32%;
     height: 355px;
@@ -149,20 +161,22 @@ display: initial;
 }
 
 
-.main-content .section-content-right   {
-    background-image: url("img/right-tab.JPG");  
-
-}
-.main-content .section-content-mid    {
-    background-image: url("img/mid-tab.jpg");  
-
-}
-.main-content .section-content-left    {
-    background-image: url("img/left-tab.jpg");  
+.main-content .section-content-right {
+    background-image: url("img/right-tab.JPG");
 
 }
 
-.main-content .section-content  {
+.main-content .section-content-mid {
+    background-image: url("img/mid-tab.jpg");
+
+}
+
+.main-content .section-content-left {
+    background-image: url("img/left-tab.jpg");
+
+}
+
+.main-content .section-content {
     font-size: 0.8em;
     color: white;
     width: 248px;
@@ -177,6 +191,7 @@ display: initial;
     padding: 10px;
     opacity: 0.9;
 }
+
 .main-content .section-content h3 {
     margin: 0;
 }
@@ -188,17 +203,17 @@ display: initial;
 .main-content .section-content a {
     text-decoration: none;
     color: white;
-    text-align: left;  
+    text-align: left;
 }
 
-.main-content .section-content a:hover  {
+.main-content .section-content a:hover {
     text-decoration: underline;
     color: #005CA0;
 }
 
 /* ----------- banner boxes  ---------- */
 
-.main-content .flex-container-banners > section {
+.main-content .flex-container-banners>section {
     /* position: relative; */
     width: 32%;
     height: 230px;
@@ -214,7 +229,7 @@ display: initial;
     padding-bottom: 1em;
 }
 
-.main-content .flex-container-banners .section-bnr-content  {
+.main-content .flex-container-banners .section-bnr-content {
     background-image: url("img/small_cube_bg.png");
     padding: 0.2em 0.5em 0.6em;
     display: flex;
@@ -231,7 +246,7 @@ display: initial;
 
 .main-content .flex-container-banners .section-bnr-content .bnr-img {
     height: 140px;
-    width: auto ;
+    width: auto;
     text-align: center;
 }
 
@@ -245,27 +260,27 @@ display: initial;
 .main-content .flex-container-banners .section-bnr-content .bnr-read-more a {
     text-decoration: none;
     color: gray;
-    text-align: left; 
-    font-size: 0.8em; 
+    text-align: left;
+    font-size: 0.8em;
 }
 
-.main-content .flex-container-banners .section-bnr-content .bnr-read-more a:hover   {
+.main-content .flex-container-banners .section-bnr-content .bnr-read-more a:hover {
     text-decoration: underline;
     color: #005CA0;
     font-weight: bolder;
 }
 
-.main-content .flex-container-banners .section-bnr-left .section-bnr-content    {
+.main-content .flex-container-banners .section-bnr-left .section-bnr-content {
     position: relative;
     height: 100%
 }
 
 .main-content .flex-container-banners .section-bnr-left .section-bnr-content .bnr-img {
-    position: absolute ;
+    position: absolute;
     left: 50px;
     top: 30px;
     height: 140px;
-    width: auto ;
+    width: auto;
     text-align: center;
 }
 
@@ -274,18 +289,18 @@ display: initial;
     padding: 0.2em;
 }
 
-.main-content .flex-container-banners .section-bnr-content .paz-stations-read-more ul > li  {
+.main-content .flex-container-banners .section-bnr-content .paz-stations-read-more ul>li {
     padding-bottom: 0.2em;
 }
 
-.main-content .flex-container-banners .section-bnr-content .paz-stations-read-more ul > li > a {
+.main-content .flex-container-banners .section-bnr-content .paz-stations-read-more ul>li>a {
     text-decoration: none;
     color: gray;
-    text-align: left; 
-    font-size: 0.8em; 
+    text-align: left;
+    font-size: 1.2em;
 }
 
-.main-content .flex-container-banners .section-bnr-content .paz-stations-read-more li a:hover   {
+.main-content .flex-container-banners .section-bnr-content .paz-stations-read-more li a:hover {
     text-decoration: underline;
     color: #005CA0;
     font-weight: bolder;
@@ -293,7 +308,7 @@ display: initial;
 
 /* -------------footer--------------  */
 
-footer  {
+footer {
     width: 100%;
     height: 38px;
     position: fixed;
@@ -312,14 +327,15 @@ footer .footer-menu {
     width: 100%;
 }
 
-.footer-menu .flex-menu   {
+.footer-menu .flex-menu {
     display: flex;
     justify-content: space-around;
     align-items: top;
     text-align: center;
 }
 
-.footer-menu > .flex-menu li, .footer-menu > .flex-menu li a  {
+.footer-menu>.flex-menu li,
+.footer-menu>.flex-menu li a {
     list-style-type: none;
     display: block;
     text-decoration: none;
@@ -328,11 +344,11 @@ footer .footer-menu {
     font-size: 0.9rem;
 }
 
-.footer-menu > .flex-menu #legal-pazomat a   {
-    color:rgb(223, 49, 49);
+.footer-menu>.flex-menu #legal-pazomat a {
+    color: rgb(223, 49, 49);
 }
 
-.footer-menu > .flex-menu li a:hover    {
+.footer-menu>.flex-menu li a:hover {
     color: #005CA0;
     text-decoration: underline;
 }
