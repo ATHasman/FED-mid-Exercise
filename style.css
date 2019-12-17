@@ -321,6 +321,7 @@ nav ul>li.active>a {
 
 .flex-row {
     display: flex;
+    flex-direction: row;
 }
 
 .flex-col {
@@ -372,6 +373,9 @@ nav ul>li.active>a {
     border: solid 1px gray;
 } */
 
+
+/* --------------Form Tab -------------*/
+
 .form-tab {
     width: 65%;
     height: 350px;
@@ -381,8 +385,52 @@ nav ul>li.active>a {
     border-top-right-radius: 7%;
     padding: 0.5em;
     margin: 0 5% 0;
+}
+#contact-form {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.form-container {
+    width: 80%;
+    margin: auto;
+}
+
+.form-container form label   {
+    width: 25%;
+    margin: auto
+} 
+
+.form-container form textarea   {
+    width: 76%;
+    max-height: 9em;
+    margin-top: 0.2em;
+}
+.form-container label {
+    color: gray;
+    font-size: 0.8em;
+    display: inline-block;
+}
+
+.form-tab-content p {
+    color: gray;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.form-container form {
+    padding: 1em;
+}
+
+.form-container input {
+    width: 50%;
+    margin-top: 0.2em;
 
 }
+
+
+
+/* --------------Contact info.boxes -------------*/
 
 .contact-info-tab {
     width: 35%;
@@ -392,13 +440,15 @@ nav ul>li.active>a {
 
 }
 
-.contact-info-tab h4 {
+.contact-info-tab h4, .form-tab-content h4 {
     margin-top: 0.3em ;
+    padding-right: 0.3em;
+    margin-bottom: 0;
     color: #005CA0;
 }
 
-.contact-info-tab p {
-    margin: 0;
+ .form-tab-content p {
+    margin-top: 1em;
 }
 
 .top-info-bnr {
@@ -414,21 +464,25 @@ nav ul>li.active>a {
 .top-info-bnr .address ul {
     list-style: none;
     padding: 0;
-
 }
 
-.top-info-bnr .address ul>li {
+.top-info-bnr .address ul > li {
     color: gray;
-    font-size: 0.9em;
+    font-size: 0.8em;
+    padding-top: 0.1em;
+
+}
+.top-info-bnr .address ul > li:first-child {
+    font-weight: bolder;
 }
 
-.top-info-bnr .address ul>li a {
+.top-info-bnr .address ul > li a {
     text-decoration-line: none;
     color: gray;
 
 }
 
-.top-info-bnr .address ul>li a:hover {
+.top-info-bnr .address ul > li a:hover {
     text-decoration: underline;
     color: #005CA0;
     font-weight: bolder;
@@ -461,16 +515,6 @@ nav ul>li.active>a {
     border-top-right-radius: 8%;
     padding: 0 0.5em 0;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* ---------------------------------------------Footer all-pages-----------------------------------------------  */
 
