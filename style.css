@@ -310,6 +310,80 @@ nav ul>li.active>a {
 /* ---------------------------------------------Contact-page-----------------------------------------------  */
 /* -------------main-contact-page--------------  */
 
+/* .main-content {   // reused 
+    width: 900px;
+    margin: auto;
+    top: 105px;
+    padding-top: 30px;
+    z-index: 10;
+} */
+
+.flex-row   {
+    display: flex;
+    border: solid 1px gray;
+}
+
+.flex-col    {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px gray
+}
+
+.breadcrumbs    {
+    border: solid 1px gray
+}
+
+.main-header {
+    border: solid 1px gray
+}
+
+.contact-section {
+    border: solid 1px gray;
+}
+
+.form-tab {
+    width: 65%;
+    height: 350px;
+    background-image: url(img/contact_form_bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-top-right-radius: 12%;
+    padding: 0.5em;
+    border: solid 1px gray;
+
+}
+
+.contact-info-tab {
+    width :35%;
+    height: 350px;
+    justify-content: center;   
+
+}
+
+
+.top-info-bnr {
+    width: auto;
+    height: 50%;
+    border: solid 1px gray;
+    background-image: url(img/cube_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-top-right-radius: 12%;
+    padding: 0.5em;
+
+}
+
+.bottom-info-bnr {
+    width: auto;
+    height: 50%;
+    border: solid 1px gray;
+    background-image: url(img/cube_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-top-right-radius: 12%;
+    padding: 0.5em;
+
+}
 
 
 
