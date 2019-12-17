@@ -320,26 +320,55 @@ nav ul>li.active>a {
 
 .flex-row   {
     display: flex;
-    border: solid 1px gray;
 }
 
 .flex-col    {
     display: flex;
     flex-direction: column;
-    border: solid 1px gray
 }
 
-.breadcrumbs    {
-    border: solid 1px gray
+/* --------------breadcrumbs navigation bar -------------*/
+
+
+.breadcrumb {
+    list-style: none;
+    margin: 0;
 }
+
+.breadcrumb > li {
+    display: inline;
+
+}
+
+.breadcrumb li a {
+    text-decoration: none;
+    color: gray;
+    text-align: left;
+    font-size: 0.8em;
+    
+}
+
+.breadcrumb li a i  {
+    font-size: 80%;
+}
+
+.breadcrumb li a:hover {
+    text-decoration: underline;
+    color: #005CA0;
+    font-weight: bolder;
+}
+/* --------------Contact Header -------------*/
 
 .main-header {
-    border: solid 1px gray
+    font-size: 0.6em;
+    color: gray;
+    padding-right: 5%;
+
 }
 
-.contact-section {
+/* .contact-section {
     border: solid 1px gray;
-}
+} */
 
 .form-tab {
     width: 65%;
@@ -347,43 +376,38 @@ nav ul>li.active>a {
     background-image: url(img/contact_form_bg.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    border-top-right-radius: 12%;
+    border-top-right-radius: 7%;
     padding: 0.5em;
-    border: solid 1px gray;
+    margin: 0 5% 0;
 
 }
 
 .contact-info-tab {
     width :35%;
     height: 350px;
-    justify-content: center;   
+    justify-content: space-between; 
+    margin: 0 5% 0 0;
 
 }
 
+.contact-info-tab h4   {
+    margin: 0;
+    color: #005CA0;
+}
+.contact-info-tab p {
+    margin: 0;
+}
 
-.top-info-bnr {
+.top-info-bnr, .mid-info-bnr, .bottom-info-bnr {
     width: auto;
-    height: 50%;
-    border: solid 1px gray;
+    height: 30%;
     background-image: url(img/cube_bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    border-top-right-radius: 12%;
-    padding: 0.5em;
-
+    border-top-right-radius: 8%;
+    padding-right: 1em;
 }
 
-.bottom-info-bnr {
-    width: auto;
-    height: 50%;
-    border: solid 1px gray;
-    background-image: url(img/cube_bg.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    border-top-right-radius: 12%;
-    padding: 0.5em;
-
-}
 
 
 
